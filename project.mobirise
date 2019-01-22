@@ -26,11 +26,14 @@
         "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
-      }
+      },
+      "additionalSetColors": []
     },
     "versionFirst": "4.7.2",
-    "uniqCompNum": 1,
-    "versionPublish": "4.7.2"
+    "uniqCompNum": 2,
+    "versionPublish": "4.8.6",
+    "path": "@PROJECT_PATH@",
+    "siteFonts": []
   },
   "pages": {
     "index.html": {
@@ -50,16 +53,20 @@
             "background-color": "@bgColor",
             ".mbr-text, blockquote": {
               "color": "#767676"
+            },
+            ".mbr-text P": {
+              "color": "#149dcc",
+              "text-align": "center"
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><b><a href=\"http://dantheman61.com:8989\">Sonarr</a>&nbsp;</b></p><p><b><a href=\"http://dantheman61.com:6789/\">NZBGET</a></b></p><p><b><a href=\"https://app.plex.tv/desktop\">Plex</a></b></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><b><a href=\"http://lw815.ultraseedbox.com:13926/\">Sonarr&nbsp;</a></b><a href=\"http://lw815.ultraseedbox.com:13926/\">- TV</a></p><p><a href=\"http://lw815.ultraseedbox.com:13927/\">Radarr - Movies</a></p><p><b><a href=\"http://lw815.ultraseedbox.com:13907/\">NZBGET&nbsp;</a></b><a href=\"http://lw815.ultraseedbox.com:13907/\">-</a><b><a href=\"http://lw815.ultraseedbox.com:13907/\"> </a></b><a href=\"http://lw815.ultraseedbox.com:13907/\">Download&nbsp;</a></p><p><b><a href=\"https://app.plex.tv/desktop\">Plex&nbsp;</a></b><a href=\"https://app.plex.tv/desktop\">- Watch</a></p><p><b>Donate At:&nbsp;<i><a href=\"http://paypal.me/DanielMancuso\" class=\"text-secondary\">paypal.me/DanielMancuso</a></i></b></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "qSqhPZTzLF",
+          "_anchor": "content1-0",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-0"
+          "_params": {}
         }
       ]
     }
