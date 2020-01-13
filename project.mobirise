@@ -27,13 +27,22 @@
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#43f741"
+      ]
     },
     "versionFirst": "4.7.2",
     "uniqCompNum": 2,
-    "versionPublish": "4.8.6",
+    "versionPublish": "4.11.6",
     "path": "@PROJECT_PATH@",
-    "siteFonts": []
+    "siteFonts": [
+      {
+        "css": "'Rubik', sans-serif",
+        "name": "Rubik",
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
+      }
+    ],
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -57,10 +66,13 @@
             ".mbr-text P": {
               "color": "#149dcc",
               "text-align": "center"
+            },
+            ".mbr-text": {
+              "color": "#43f741"
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><b><a href=\"http://lw815.ultraseedbox.com:13926/\">Sonarr&nbsp;</a></b><a href=\"http://lw815.ultraseedbox.com:13926/\">- TV</a></p><p><a href=\"http://lw815.ultraseedbox.com:13927/\">Radarr - Movies</a></p><p><b><a href=\"http://lw815.ultraseedbox.com:13907/\">NZBGET&nbsp;</a></b><a href=\"http://lw815.ultraseedbox.com:13907/\">-</a><b><a href=\"http://lw815.ultraseedbox.com:13907/\"> </a></b><a href=\"http://lw815.ultraseedbox.com:13907/\">Download&nbsp;</a></p><p><b><a href=\"https://app.plex.tv/desktop\">Plex&nbsp;</a></b><a href=\"https://app.plex.tv/desktop\">- Watch</a></p><p><b>Donate At:&nbsp;<i><a href=\"http://paypal.me/DanielMancuso\" class=\"text-secondary\">paypal.me/DanielMancuso</a></i></b></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><b>Server Status: Online</b></p><p><a href=\"https://app.plex.tv/desktop\">Plex - Watch</a></p><p><b><a href=\"http://51.91.167.72:8989/\">Sonarr&nbsp;</a></b><a href=\"http://51.91.167.72:8989/\">- TV</a></p><p><a href=\"http://51.91.167.72:7878/\">Radarr - Movies</a></p><p><b><a href=\"http://51.91.167.72:8080/\">SABnzbd&nbsp;</a></b><a href=\"http://51.91.167.72:8080/\">-</a><b><a href=\"http://51.91.167.72:8080/\"> </a></b><a href=\"http://51.91.167.72:8080/\">Download&nbsp;</a></p><p><a href=\"https://i.ibb.co/N33CRh7/Radarr-and-Sonarr-Instructionsv2.png\">How to add Movies &amp; TV Shows</a></p><p><b style=\"font-size: 1.5rem;\">Donate At:&nbsp;<i><a href=\"http://paypal.me/DanielMancuso\" class=\"text-secondary\">paypal.me/DanielMancuso</a></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p><p><b style=\"font-size: 1.5rem;\"><i><br></i></b></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "qSqhPZTzLF",
           "_anchor": "content1-0",
           "_protectedParams": [],
